@@ -1,31 +1,59 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>grant gumina</title>
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/styles.css" />
-		<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<title>Homepage | Grant Gumina</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-		<section class="intro">
-			<div class="container">
-				<div class="row centered">
-					<div class="circular shadow profile-pic"></div>
-					<h2>grant gumina</h2>
-					<p class="description">
-						I ship code, launch products, and build things.
-						<br />
-						Always looking for interesting people and projects.
-					</p>
-					<ul class="profile-links">
-						<li><a href="http://linkedin.com/in/grantgumina" alt="Grant Gumina's LinkedIn" title="LinkedIn">LinkedIn</a></li>
-						<li><a href="https://skydrive.live.com/redir?resid=D63EDFC66479921F!399&authkey=!AHLe6VFDqmeYf2E&ithint=file%2c.pdf" alt="Grant Gumina's Resume" title="Resume">Resume</a></li>
-						<li><a href="/portfolio" alt="Grant Gumina's Portfolio" title="Portfolio">Portfolio</a></li>
-						<li><a href="https://medium.com/@gum_ina_package" alt="Grant Gumina's writings" title="Writings">Writings</a></li>
-					</ul>
-				</div>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" width="150px" alt="" /></span>
+							<h1>Grant Gumina</h1>
+							<p>Fullstack Product Manager on OneNote</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="http://twitter.com/grantgumina" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-linkedin">LinkedIn</a></li>
+								<li><a href="http://medium.com/@grantgumina" class="fa-medium">Medium</a></li>
+							</ul>
+							<a href="/consulting">Looking for my consulting site?</a>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Grant Gumina</li>
+						</ul>
+					</footer>
+
 			</div>
-		</section>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
 	</body>
 </html>
