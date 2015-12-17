@@ -1,5 +1,8 @@
-# git
+# OS X
+.DS_Store
+Thumbs.db
 
+# git
 *.swp
 *.swo
 *.swl
