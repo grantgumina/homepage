@@ -17,7 +17,7 @@
 
 		<!-- Header -->
 			<div id="header">
-				<span class="logo icon fa-paper-plane-o"></span>
+				<span class="avatar"><img src="images/avatar.jpg" width="150px" alt="" /></span>
 				<h1>Hi. I'm Grant.<h1>
 				<h2>I help university administrators generate</h2>
 				<h2>leads from alumni they never knew existed.</h2>
@@ -68,10 +68,43 @@
 				</div>
 
 				<footer class="major container 75%">
-					<h3>Interested?</h3>
-					<ul class="actions">
-						<li><a href="#" class="button">Let's talk</a></li>
-					</ul>
+					<section>
+						<header>
+							<h3>Interested?<br/>Let's talk.</h3>
+						</header>
+						<form method="post" action="http://formspree.io/grantgumina@gmail.com">
+							<div class="row">
+								<div class="6u 12u(mobilep)">
+									<input type="text" name="_gotcha" style="display:none" />
+									<label for="name">Name</label>
+									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+								</div>
+								<div class="6u 12u(mobilep)">
+									<label for="email">Email</label>
+									<input class="text" type="text" name="_replyto" id="email" value="" placeholder="johndoe@domain.tld" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<label for="subject">Subject</label>
+									<input class="text" type="text" name="_subject" id="subject" value="" placeholder="Enter your subject" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<label for="subject">Message</label>
+									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<ul class="actions">
+										<li><input type="submit" value="Send" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
 				</footer>
 			</div>
 
