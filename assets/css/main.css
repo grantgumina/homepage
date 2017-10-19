@@ -860,3 +860,16 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+ul.tight {
+	list-style: none; 
+	padding: 0px;
+}
+
+ul.tight li {
+	padding-left: 0px;
+}
+
+ul.tight li.first {
+	border-bottom: 1px solid #eee;
+}
