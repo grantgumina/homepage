@@ -1,7 +1,17 @@
 html {
 	font-family: "ProximaNovaRegular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 18px;
-	color: #818D97;
+	color: #414141;
+}
+
+a {
+	color: #484D51;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #231f7a;
 }
 
 p.nav {
@@ -14,6 +24,7 @@ p.nav {
 }
 
 .description {
+    font-family: 'Crimson Text', serif;
 	padding-left: 1em;
 }
 
