@@ -1,5 +1,6 @@
 ---
 title: "Spoon Bending"
+date: 2025-12-23
 description: "How shifting from brute-force intensity to building a team of spoon benders transforms leadership in distressed environments."
 ---
 

@@ -22,8 +22,12 @@ description: Writings by Grant Gumina on startups, product management, and leade
 
 			<h2>Writings</h2>
 
-			{% for writing in site.writings %}
+			{% assign sorted_writings = site.writings | sort: "date" | reverse %}
+			{% for writing in sorted_writings %}
 			<div class="writing-item">
+				{% if writing.date %}
+				<span class="writing-date">{{ writing.date | date: "%B %-d, %Y" }}</span> —
+				{% endif %}
 				<a href="{{ writing.url }}">{{ writing.title }}</a>
 				{% if writing.description %}
 				<p class="description">{{ writing.description }}</p>

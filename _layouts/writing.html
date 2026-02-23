@@ -17,6 +17,9 @@
 
 			<article class="writing">
 				<h2>{{ page.title }}</h2>
+				{% if page.date %}
+				<p class="writing-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+				{% endif %}
 				{% if page.description %}
 				<p class="writing-description">{{ page.description }}</p>
 				{% endif %}

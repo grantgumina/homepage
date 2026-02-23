@@ -1,5 +1,6 @@
 ---
 title: "The 6 T's Framework for Evaluating Startups"
+date: 2019-11-24
 description: "A framework for deciding whether a startup opportunity is worth taking, based on TAM, Team, Trends, Traction, Technology, and Timing."
 ---
 

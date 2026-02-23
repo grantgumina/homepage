@@ -61,6 +61,11 @@ p.nav {
 	margin-bottom: 1.5em;
 }
 
+.writing-date {
+	color: #888;
+	font-size: 0.9em;
+}
+
 .writing-description {
 	font-family: 'Crimson Text', serif;
 	color: #666;
