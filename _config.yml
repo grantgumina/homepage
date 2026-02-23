@@ -1,0 +1,25 @@
+title: Grant Gumina
+url: "https://www.grantgumina.com"
+description: "Grant Gumina's personal site and writings"
+
+collections:
+  writings:
+    output: true
+    permalink: /writings/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "writings"
+    values:
+      layout: "writing"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Notion
+  - logs
+  - Thumbs.db
+  - README.md

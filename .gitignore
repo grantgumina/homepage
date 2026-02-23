@@ -8,3 +8,9 @@ Thumbs.db
 *.swl
 *.swm
 *.swn
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/

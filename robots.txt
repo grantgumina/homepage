@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Disallow: /cgi-bin/
-Sitemap: grantgumina.com
+Sitemap: https://www.grantgumina.com/sitemap.xml

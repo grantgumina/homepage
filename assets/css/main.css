@@ -31,3 +31,38 @@ p.nav {
 .header {
 	text-align: center;
 }
+
+/* Writings */
+.writing-content {
+	font-family: 'Crimson Text', serif;
+	line-height: 1.6;
+}
+
+.writing-content img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 1.5em auto;
+}
+
+.writing-content h2,
+.writing-content h3 {
+	margin-top: 1.5em;
+}
+
+.writing-content blockquote {
+	border-left: 3px solid #ccc;
+	margin-left: 0;
+	padding-left: 1em;
+	color: #666;
+}
+
+.writing-item {
+	margin-bottom: 1.5em;
+}
+
+.writing-description {
+	font-family: 'Crimson Text', serif;
+	color: #666;
+	font-style: italic;
+}

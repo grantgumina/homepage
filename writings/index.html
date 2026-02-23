@@ -1,0 +1,40 @@
+---
+layout: null
+title: Writings
+description: Writings by Grant Gumina on startups, product management, and leadership.
+---
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Writings | Grant Gumina</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/css/main.css"/>
+		{% seo %}
+	</head>
+	<body>
+
+		<div class="container">
+			<header class="header">
+				<h1><a href="/" style="text-decoration: none; color: inherit;">Grant Gumina</a></h1>
+			</header>
+
+			<h2>Writings</h2>
+
+			{% for writing in site.writings %}
+			<div class="writing-item">
+				<a href="{{ writing.url }}">{{ writing.title }}</a>
+				{% if writing.description %}
+				<p class="description">{{ writing.description }}</p>
+				{% endif %}
+			</div>
+			{% endfor %}
+
+			<p class="nav">
+				<a href="/">Home</a>
+			</p>
+		</div>
+
+	</body>
+</html>
