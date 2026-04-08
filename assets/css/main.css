@@ -61,6 +61,16 @@ p.nav {
 	margin-bottom: 1.5em;
 }
 
+.writing-item a {
+	color: #0000EE;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.writing-item a:hover {
+	color: #551A8B;
+}
+
 .writing-date {
 	color: #888;
 	font-size: 0.9em;
